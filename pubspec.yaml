@@ -1,0 +1,34 @@
+name: mobile_ar_capstone
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  isar: ^3.0.0
+  isar_flutter_libs: ^3.0.0
+  path_provider: ^2.0.11
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  isar_generator: ^3.0.0
+  build_runner: ^2.1.10
+  analyzer: ^5.13.0
+
+flutter:
+  assets: 
+    - lib/assets/logo_agri.png
+    - lib/assets/logo_agri2.png
+    - lib/assets/house.png
+    - lib/assets/market.png
+    - lib/assets/edit-user.png
+    - lib/assets/livestock.png
+    - lib/assets/fees.png
+    - lib/assets/cover.png
+  uses-material-design: true
